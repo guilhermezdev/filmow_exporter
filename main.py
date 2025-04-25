@@ -61,7 +61,7 @@ class FilmowParser:
         self.dump_movies()
 
 def main():
-    parser = argparse.ArgumentParser(prog='FilmowExporter' ,description='Export Filmow movies on watch/plan to watch to a CSV file readable by Letterboxd')
+    parser = argparse.ArgumentParser(prog='FilmowExporter' ,description='Export Filmow movies already watched movies to a CSV file readable by Letterboxd')
     parser.add_argument('username', type=str, help='Filmow username')
     args = parser.parse_args()
 
